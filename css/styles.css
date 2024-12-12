@@ -29,7 +29,7 @@ button:hover {
     background-color: lightblue;
 }
 .electric-button {
-    color: yellow;
+    color: rgb(255, 102, 0);
     background-color: yellow;
 }
 .ice-button {
@@ -39,6 +39,58 @@ button:hover {
 .ground-button {
     color: brown;
     background-color: burlywood;
+}
+.poison-button {
+    color: purple;
+    background-color: plum;
+}
+.bug-button {
+    color: green;
+    background-color: lightgreen;
+}
+.fairy-button {
+    color: rgb(255, 0, 255);
+    background-color: rgb(255, 192, 255);
+}
+.flying-button {
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+}
+.psychic-button {
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.psychic-button {
+    color: white;
+    background-color: purple;
+}
+.fighting-button {
+    color: white;
+    background-color: darkred;
+}
+.rock-button {
+    color: black;
+    background-color: gray;
+}
+.ghost-button {
+    color: white;
+    background-color: darkslateblue;
+}
+.dragon-button {
+    color: white;
+    background-color: indigo;
+}
+.dark-button {
+    color: white;
+    background-color: black;
+}
+.steel-button {
+    color: black;
+    background-color: silver;
+}
+.flying-button {
+    color: white;
+    background-color: skyblue;
 }
 
 
