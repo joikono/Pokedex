@@ -5,23 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js"></script>
 </head>
 <body>
-    <header>
-        <!-- <h1>Pokedex</h1> -->
+    <div>
         <img src="img/pokedex_logo.png"> 
-        <nav>
-            <button onclick="showAll()">All</button>
-            <button onclick="filterByType('Normal')" class="normal-button">Normal</button>
-            <button onclick="filterByType('Fire')" class="fire-button">Fire</button>
-            <button onclick="filterByType('Water')" class="water-button">Water</button>
-            <button onclick="filterByType('Grass')" class="grass-button">Grass</button>
-        </nav>
-    </header>
-    <main>
-        <section id="pokemon-container">
-        </section>
-    </main>
+    </div>
+    <input type="text" id="search-bar" placeholder="Search Pokemon by name..." style="margin: 10px; width: 300px; height: 40px; font-size: 16px;">
+    <div class="filter-buttons">
+        <button onclick="filterByType('all')">All</button>
+        <button class="water-button" onclick="filterByType('water')">Water</button>
+        <button class="fire-button" onclick="filterByType('fire')">Fire</button>
+        <button class="grass-button" onclick="filterByType('grass')">Grass</button>
+        <button class="electric-button" onclick="filterByType('electric')">Electric</button>
+        <button class="normal-button" onclick="filterByType('normal')">Normal</button>
+        <button class="poison-button" onclick="filterByType('poison')">Poison</button>
+        <button class="bug-button" onclick="filterByType('bug')">Bug</button>
+        <button class="ground-button" onclick="filterByType('ground')">Ground</button>
+        <button class="fairy-button" onclick="filterByType('fairy')">Fairy</button>
+        <button class="psychic-button" onclick="filterByType('psychic')">Psychic</button>
+        <button class="fighting-button" onclick="filterByType('fighting')">Fighting</button>
+        <button class="rock-button" onclick="filterByType('rock')">Rock</button>
+        <button class="ghost-button" onclick="filterByType('ghost')">Ghost</button>
+        <button class="dragon-button" onclick="filterByType('dragon')">Dragon</button>
+        <button class="dark-button" onclick="filterByType('dark')">Dark</button>
+        <button class="steel-button" onclick="filterByType('steel')">Steel</button>
+        <button class="flying-button" onclick="filterByType('flying')">Flying</button>
+    </div>
+    <div id="pokemon-container"></div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

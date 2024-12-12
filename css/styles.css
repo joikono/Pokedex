@@ -28,6 +28,19 @@ button:hover {
     color: blue;
     background-color: lightblue;
 }
+.electric-button {
+    color: yellow;
+    background-color: yellow;
+}
+.ice-button {
+    color: aquamarine;
+    background-color: aqua;
+}
+.ground-button {
+    color: brown;
+    background-color: burlywood;
+}
+
 
 img {
     width: 200px;
